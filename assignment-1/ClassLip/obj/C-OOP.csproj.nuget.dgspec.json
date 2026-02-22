@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\C-OOP\\assignment-1\\assignment-1.csproj": {}
+    "E:\\C#\\C-OOP\\assignment-1\\ClassLip\\C-OOP.csproj": {}
   },
   "projects": {
-    "E:\\C#\\C-OOP\\assignment-1\\assignment-1.csproj": {
+    "E:\\C#\\C-OOP\\assignment-1\\ClassLip\\C-OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\C-OOP\\assignment-1\\assignment-1.csproj",
-        "projectName": "assignment-1",
-        "projectPath": "E:\\C#\\C-OOP\\assignment-1\\assignment-1.csproj",
+        "projectUniqueName": "E:\\C#\\C-OOP\\assignment-1\\ClassLip\\C-OOP.csproj",
+        "projectName": "C-OOP",
+        "projectPath": "E:\\C#\\C-OOP\\assignment-1\\ClassLip\\C-OOP.csproj",
         "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\C-OOP\\assignment-1\\obj\\",
+        "outputPath": "E:\\C#\\C-OOP\\assignment-1\\ClassLip\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"

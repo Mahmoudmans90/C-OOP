@@ -1,0 +1,12 @@
+E:\C#\C-OOP\assignment-1\ClassLip\bin\Debug\net10.0\C-OOP.deps.json
+E:\C#\C-OOP\assignment-1\ClassLip\bin\Debug\net10.0\C-OOP.dll
+E:\C#\C-OOP\assignment-1\ClassLip\bin\Debug\net10.0\C-OOP.pdb
+E:\C#\C-OOP\assignment-1\ClassLip\obj\Debug\net10.0\C-OOP.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C-OOP\assignment-1\ClassLip\obj\Debug\net10.0\C-OOP.AssemblyInfoInputs.cache
+E:\C#\C-OOP\assignment-1\ClassLip\obj\Debug\net10.0\C-OOP.AssemblyInfo.cs
+E:\C#\C-OOP\assignment-1\ClassLip\obj\Debug\net10.0\C-OOP.csproj.CoreCompileInputs.cache
+E:\C#\C-OOP\assignment-1\ClassLip\obj\Debug\net10.0\C-OOP.sourcelink.json
+E:\C#\C-OOP\assignment-1\ClassLip\obj\Debug\net10.0\C-OOP.dll
+E:\C#\C-OOP\assignment-1\ClassLip\obj\Debug\net10.0\refint\C-OOP.dll
+E:\C#\C-OOP\assignment-1\ClassLip\obj\Debug\net10.0\C-OOP.pdb
+E:\C#\C-OOP\assignment-1\ClassLip\obj\Debug\net10.0\ref\C-OOP.dll

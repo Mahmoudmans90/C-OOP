@@ -1,0 +1,12 @@
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\bin\Debug\net10.0\MovieTicketLibrary.deps.json
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\bin\Debug\net10.0\MovieTicketLibrary.dll
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\bin\Debug\net10.0\MovieTicketLibrary.pdb
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\obj\Debug\net10.0\MovieTicketLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\obj\Debug\net10.0\MovieTicketLibrary.AssemblyInfoInputs.cache
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\obj\Debug\net10.0\MovieTicketLibrary.AssemblyInfo.cs
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\obj\Debug\net10.0\MovieTicketLibrary.csproj.CoreCompileInputs.cache
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\obj\Debug\net10.0\MovieTicketLibrary.sourcelink.json
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\obj\Debug\net10.0\MovieTicketLibrary.dll
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\obj\Debug\net10.0\refint\MovieTicketLibrary.dll
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\obj\Debug\net10.0\MovieTicketLibrary.pdb
+E:\C#\C-OOP\assignment-1\MovieTicketLibrary\obj\Debug\net10.0\ref\MovieTicketLibrary.dll

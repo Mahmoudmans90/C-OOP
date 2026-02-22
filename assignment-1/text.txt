@@ -1,0 +1,44 @@
+Class Library =>
+Definition:
+A Class Library is a project that contains classes, structs, enums, and methods which can be reused in multiple applications.
+
+لا يحتوي عادةً على برنامج قابل للتشغيل (EXE)، بل على DLL (Dynamic Link Library) بعد Build.
+
+مثال:
+
+Classes for handling math calculations, data structures, or utility functions
+
+Why Do We Use Class Libraries?
+
+Benefits / Reasons:
+
+Code Reusability
+
+تكتب الكود مرة واحدة وتستخدمه في مشاريع مختلفة بدون نسخ.
+
+مثال: مكتبة تحتوي على كلاس Calculator يمكن استخدامها في أي مشروع Console أو Web.
+
+Separation of Concerns (Organization)
+
+تفصل المنطق (Logic) عن واجهة المستخدم (UI).
+
+البرنامج الرئيسي يبقى نظيف والمسؤولية واضحة.
+
+Maintainability
+
+أي تعديل على المكتبة يحدث في كل المشاريع اللي تستخدمها مباشرة.
+
+يقلل تكرار الكود ويجعل الصيانة أسهل.
+
+Collaboration / Teamwork
+
+فرق العمل تقدر تعمل Library مشتركة ويستخدمها كل شخص في مشروعه بدون مشاكل.
+
+Faster Development
+
+بدل كتابة نفس الكود من الصفر، تستخدم المكتبة الجاهزة → أسرع وأقل أخطاء.
+
+
+
+
+
