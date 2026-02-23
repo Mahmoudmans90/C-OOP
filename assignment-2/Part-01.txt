@@ -1,0 +1,99 @@
+Q1:
+a:-  The fields are public This breaks encapsulation because external code can 
+directly modify the data without any control or validation.
+- No validation when modifying the balance.The withdraw method does not check if 
+the amount is valid (greater than zero or less than the available balance),
+ which may lead to  (like negative balance).
+
+
+b:- Make the fields private instead of public to prevent direct access from outside the
+ class
+  - Use properties (getters/setters) to control how the data is accessed and modified.
+  - Add validation logic inside the withdraw method to ensure:
+
+c:- It breaks encapsulation, since external code can access and modify the data without restriction.
+-It removes control over validation, meaning invalid values (negative balance) can be assigned
+ directly.
+-It makes the class harder to maintain and modify later, because any change to the internal 
+representation may break external code that depends on those public fields.
+
+
+
+Q2:
+A field is a simple variable in a class, while a property provides controlled access (with optional logic) to a value; 
+yes, a property can contain logic, like a read-only FullName property that returns FullName.
+
+
+public class Person
+{
+    private string firstName;
+    private string lastName;
+
+    public Person(string f, string l)
+    {
+        firstName = f;
+        lastName = l;
+    }
+
+   public string FullName
+    {
+        get { return firstName + " " + lastName; }
+    }
+}
+
+
+Q3:
+a:-indexer
+-It provides a way to get or set elements of a class using 
+an index, making the class behave like a collection.
+-It allows an object of a class to be accessed like an array using 
+square brackets [].
+
+
+B:-Writing register[10] = "Ali"; will throw an IndexOutOfRangeException ; 
+to make the indexer safer, 
+add checking inside the get and set accessors.
+
+c:- Yes, a class can have more than one indexer, but each must have a different
+ parameter type or number of parameters.
+
+ public class MyCollection
+{
+    private string[] items = new string[10];
+    get item by index
+    public string this[int index]
+    {
+        get { return items[index]; }
+        set { items[index] = value; }
+    }
+    search for item index
+    public string this[string item]
+    {
+        get { 
+             for (int i = 0; i < items.Length; i++)
+        {
+            if (items[i] != null && items[i] == item)
+            {
+                return i; 
+            }
+        }
+        return null; 
+         }
+    }
+}
+
+
+
+
+Q4:
+
+a:- static on TotalOrders means the field belongs to the class itself
+ not to any individual object.
+-All instances of the class share the same static field, so if one object changes it
+ all objects see the change.
+-Item is an instance field, meaning each object has its own copy.
+-TotalOrders is shared across all objects.
+
+b:-No
+-because Item belongs to instances, while static methods
+ belong to the class itself and have no reference to any object.
