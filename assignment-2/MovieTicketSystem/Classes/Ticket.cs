@@ -7,16 +7,19 @@ namespace MovieTicketSystem
         private TicketType type;
         private Seat seat;
         private double price;
-
-    
+        public int TicketId {get;init;}
+        private static int ticketCounter = 0;
+        
         public Ticket(string movieName, TicketType type, Seat seat, double price)
         {
             MovieName = movieName;  
             Type = type;
             Seat = seat;
             Price = price;
+            TicketId = ++ticketCounter;
         }
 
+        public static int getTotaleTicketsCount () => ticketCounter; 
         public Ticket(string movieName)
             : this(movieName, TicketType.Standard, new Seat('A', 1), 50)
         {

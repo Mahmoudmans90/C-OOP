@@ -1,0 +1,19 @@
+Q1 -
+
+a - Composition
+
+b -Association
+
+c- Inheritance
+
+d- Aggregation
+
+e-Dependency
+
+
+
+Q2 -
+a) No, a child class in a different assembly cannot access a protected field, and it cannot be accessed from outside through an object instance.
+b) protected internal allows access from the same assembly or subclasses, while private protected allows access only from subclasses in the same assembly.
+c) sealed on a class prevents inheritance, and on a method prevents overriding.
+d) Yes, you can create an object from a sealed class using new because sealing only prevents inheritance, not instantiation.
