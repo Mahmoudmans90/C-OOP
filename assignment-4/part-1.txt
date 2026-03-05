@@ -1,0 +1,11 @@
+ََQ1-
+Static binding happens at compile time based on the reference type, 
+while dynamic binding happens at runtime based on the actual object type.
+
+Q2-
+Method overloading means having multiple methods with the same name but different parameters in the same class,
+ while method overriding means redefining a base class virtual method in a derived class using override.
+
+
+Q3-Method overriding uses virtual, override, and sometimes base; virtual allows a method to be overridden in 
+a derived class, override redefines the method in the child class, and base calls the parent class implementation.

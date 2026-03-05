@@ -5,7 +5,7 @@ namespace MovieTicketSystem
     public class Cinema
     {
         private Ticket[] tickets = new Ticket[20];
-        public Ticket this[int index]
+        public Ticket? this[int index]
         {
             get
             {
@@ -17,12 +17,12 @@ namespace MovieTicketSystem
             set
             {
                 if (index >= 0 || index < tickets.Length)
-                    tickets[index] = value;
+                    tickets[index] = value!;
                 
             }
         }
 
-        public Ticket GetMovie(string movieName)
+        public Ticket? GetMovie(string movieName)
         {
             foreach (var ticket in tickets)
             {
